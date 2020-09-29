@@ -1,6 +1,4 @@
 import React from "react";
-import CustomSelect from "../../components/CustomSelect/CustomSelect";
-import UserService from "../../services/UserService/UserService";
 
 function Review() {
   return (
