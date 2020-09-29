@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fabbi-test/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fabbi-test/static/js/main.9cea0d44.chunk.js",
+    "main.js.map": "/fabbi-test/static/js/main.9cea0d44.chunk.js.map",
+    "runtime-main.js": "/fabbi-test/static/js/runtime-main.bd7f37b9.js",
+    "runtime-main.js.map": "/fabbi-test/static/js/runtime-main.bd7f37b9.js.map",
+    "static/js/2.f67fd4dd.chunk.js": "/fabbi-test/static/js/2.f67fd4dd.chunk.js",
+    "static/js/2.f67fd4dd.chunk.js.map": "/fabbi-test/static/js/2.f67fd4dd.chunk.js.map",
+    "index.html": "/fabbi-test/index.html",
+    "precache-manifest.4d9009f963a122671f8c4e583c1aaa8f.js": "/fabbi-test/precache-manifest.4d9009f963a122671f8c4e583c1aaa8f.js",
+    "service-worker.js": "/fabbi-test/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/fabbi-test/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f67fd4dd.chunk.js.LICENSE.txt": "/fabbi-test/static/js/2.f67fd4dd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/fabbi-test/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd7f37b9.js",
+    "static/js/2.f67fd4dd.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.9cea0d44.chunk.js"
+  ]
+}
