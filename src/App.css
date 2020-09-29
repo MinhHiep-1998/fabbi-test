@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  width: 745px;
+	margin: 0 auto;
 }
 
 .App-logo {
@@ -7,25 +9,96 @@
   pointer-events: none;
 }
 
+/* .custom-select-container {
+  display: inline-block;
+  min-width: 250px;
+  position: relative;
+}
+
+.selected-text {
+  padding: 5px 20px;
+  border: 2px solid #000;
+}
+
+.selected-text::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  border: 7px solid transparent;
+  border-color: #000 transparent transparent transparent;
+}
+
+.selected-text.active::after {
+  top: 5px;
+  border-color: transparent transparent #000 transparent;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.select-options {
+  position: absolute;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+li {
+  list-style-type: none;
+  padding: 6px 20px;
+  border: 1px solid #000;
+  border-top-color: #fff;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #f5f5f5;
+} */
+.select-container {
+  min-width: 250px;
+  padding: 5px 10px;
+  border: 2px solid #000;
+}
+.ipNumber {
+  min-width: 150px;
+  padding: 5px 10px;
+  border: 2px solid #000;
+}
+.form1,.form2 {
+  width: 250px;
+  margin: 50px auto;
+}
+.form3 {
+  margin: 50px 0;
+  width: 100%;
+}
+.btnFooter {
+  padding: 50px 0; 
+}
+.btnNext {
+  float: right;
+  background: #fff;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 5px 10px
+}
+.btnPrevious {
+  float: left;
+  background: #fff;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 5px 10px
+}
+.box-order {
+  text-align: center;
+  border: 2px solid #000;
+  padding: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
