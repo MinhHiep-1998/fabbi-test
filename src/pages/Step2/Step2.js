@@ -26,6 +26,9 @@ function Step2(props) {
   const handleChangeDishe = (event) => (
     setDishe(event.target.value)
   );
+  const handleBack=()=> {
+    props.history.push('/fabbi-test/Step1');
+  }
     return (
       <div>
         <Header navAction={'actionStep2'}/>
@@ -39,7 +42,7 @@ function Step2(props) {
             </select><br/><br/><br/>
           </div>
           <div className="btnFooter">
-              <button className="btnPrevious" type="button">Previous</button>
+              <button onClick={handleBack} className="btnPrevious" type="button">Previous</button>
               <input className="btnNext" type="submit" value="Next" />
           </div>
         </form>

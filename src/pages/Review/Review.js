@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useState,useEffect} from 'react';
+import Header from '../../components/Header/Header';
 
-function Review() {
+function Review(props) {
+  const handleBack=()=> {
+    props.history.push('/fabbi-test/Step3');
+  }
   return (
     <div>
-      <div>
+        <Header navAction={'actionReview'}/>
+        <form action="/Review" method="POST">
           <table className="reviewDetail">
               <tr>
                   <td style={{minWidth:200}}>
@@ -20,11 +25,11 @@ function Review() {
                   </td>
               </tr>
           </table>
-      </div>
-      <div className="btnFooter">
-          <button className="btnPrevious" type="button">Previous</button>
-        <button className="btnNext" type="button">Submit</button>
-      </div>
+        <div className="btnFooter">
+          <button onClick={handleBack} className="btnPrevious" type="button">Previous</button>
+          <button className="btnNext" type="button">Submit</button>
+        </div>
+      </form>
     </div>
   );
 }

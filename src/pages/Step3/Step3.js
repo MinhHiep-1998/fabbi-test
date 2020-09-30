@@ -29,6 +29,9 @@ function Step3(props) {
   const handleChangeNumServing = (event) => (
     setNumServing(event.target.value)
   );
+  const handleBack=()=> {
+    props.history.push('/fabbi-test/Step2');
+  }
   return (
     <div>
         <Header navAction={'actionStep3'}/>
@@ -52,7 +55,7 @@ function Step3(props) {
               </table>
           </div>
           <div className="btnFooter">
-              <button className="btnPrevious" type="button">Previous</button>
+              <button onClick={handleBack} className="btnPrevious" type="button">Previous</button>
               <input className="btnNext" type="submit" value="Next" />
           </div>
       </form>
